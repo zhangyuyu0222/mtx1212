@@ -1,0 +1,99 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录功能",
+    "children" : [ {
+      "name" : "登录的参数:正向和逆向",
+      "children" : [ {
+        "name" : "登录的测试用例",
+        "uid" : "ea923217c54e8b5e",
+        "parentUid" : "06bf6c2aa7349bf4f1ed73aa8320736a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606876146754,
+          "stop" : 1606876146906,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '', 'exp': '密码格式 6~18 个字符之间'}" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "24231923c9c9f31e",
+        "parentUid" : "06bf6c2aa7349bf4f1ed73aa8320736a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606876146911,
+          "stop" : 1606876147038,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': '', 'pwd': 'yaoyao', 'exp': '登录账号有误'}" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "6f527976fa542fa1",
+        "parentUid" : "06bf6c2aa7349bf4f1ed73aa8320736a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606876147043,
+          "stop" : 1606876147196,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'lwx', 'pwd': 'yaoyao', 'exp': '帐号不存在'}" ]
+      }, {
+        "name" : "登录的测试用例",
+        "uid" : "76b53a3ae3af1120",
+        "parentUid" : "06bf6c2aa7349bf4f1ed73aa8320736a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606876147201,
+          "stop" : 1606876147338,
+          "duration" : 137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '123456', 'exp': '密码错误'}" ]
+      } ],
+      "uid" : "06bf6c2aa7349bf4f1ed73aa8320736a"
+    } ],
+    "uid" : "76c1a89e029bf2806c0ddb06b8505b0b"
+  }, {
+    "name" : "下订单功能",
+    "children" : [ {
+      "name" : "下订单的测试用例",
+      "uid" : "1ff0a5263c264dd0",
+      "parentUid" : "a4d856689c803ebd6ff809928a3b44dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606876147508,
+        "stop" : 1606876147676,
+        "duration" : 168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a4d856689c803ebd6ff809928a3b44dd"
+  }, {
+    "name" : "支付成功功能",
+    "children" : [ {
+      "name" : "支付成功的测试用例",
+      "uid" : "8be747937a967806",
+      "parentUid" : "be704a774b34b9d419ca3bbaf8e49ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606876148013,
+        "stop" : 1606876149556,
+        "duration" : 1543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be704a774b34b9d419ca3bbaf8e49ff8"
+  } ]
+}

@@ -1,0 +1,22 @@
+2020-12-02 10:29:06,752 INFO [root] [apiLogin.py (__init__:13] - 开始获取login的url地址
+2020-12-02 10:29:06,752 INFO [root] [apiLogin.py (__init__:15] - login的url地址是http://121.42.15.146:9090//mtx/index.php?s=/index/user/login.html
+2020-12-02 10:29:06,753 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求,请求的参数是{'accounts': 'yaoyao', 'pwd': ''},headers是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 10:29:06,906 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 10:29:06,911 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求,请求的参数是{'accounts': '', 'pwd': 'yaoyao'},headers是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 10:29:07,037 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 10:29:07,043 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求,请求的参数是{'accounts': 'lwx', 'pwd': 'yaoyao'},headers是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 10:29:07,195 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 10:29:07,200 INFO [root] [apiLogin.py (login:24] - 准备发起login的请求,请求的参数是{'accounts': 'yaoyao', 'pwd': '123456'},headers是{'X-Requested-With': 'XMLHttpRequest'}
+2020-12-02 10:29:07,337 INFO [root] [apiLogin.py (login:26] - 获取的响应值是<Response [200]>
+2020-12-02 10:29:07,344 INFO [root] [apiLogin.py (__init__:13] - 开始获取login的url地址
+2020-12-02 10:29:07,344 INFO [root] [apiLogin.py (__init__:15] - login的url地址是http://121.42.15.146:9090//mtx/index.php?s=/index/user/login.html
+2020-12-02 10:29:07,344 INFO [root] [apiLogin.py (login_success:34] - 准备发起login的成功请求
+2020-12-02 10:29:07,344 INFO [root] [apiLogin.py (login_success:36] - 成功请求的data数据信息是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-12-02 10:29:07,506 INFO [root] [apiLogin.py (login_success:38] - 成功的响应值是<Response [200]>
+2020-12-02 10:29:07,681 INFO [root] [apiLogin.py (__init__:13] - 开始获取login的url地址
+2020-12-02 10:29:07,682 INFO [root] [apiLogin.py (__init__:15] - login的url地址是http://121.42.15.146:9090//mtx/index.php?s=/index/user/login.html
+2020-12-02 10:29:07,682 INFO [root] [apiLogin.py (login_success:34] - 准备发起login的成功请求
+2020-12-02 10:29:07,682 INFO [root] [apiLogin.py (login_success:36] - 成功请求的data数据信息是{'accounts': 'yaoyao', 'pwd': 'yaoyao'}
+2020-12-02 10:29:07,867 INFO [root] [apiLogin.py (login_success:38] - 成功的响应值是<Response [200]>
+2020-12-02 10:29:08,012 INFO [root] [apiPay.py (__init__:8] - 开始获取pay的url地址
+2020-12-02 10:29:08,013 INFO [root] [apiPay.py (pay:13] - 发起pay请求，将重定向设置为不重定向
